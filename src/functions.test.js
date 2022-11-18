@@ -94,6 +94,11 @@ describe('calculate', () => {
   it('handles a mix of exponents, addition, subtraction, multiplication and division, by performing calculations in the correct order', () => {
     expect(calculate('1000 - 5 * 3 + 4 ^ 3 / 8')).toBe(993);
   });
+  it('handles nested parentheses', () => {
+    expect(calculate('6 + (20 - (4 * 3))')).toBe(14);
+    expect(calculate('2 * (4 * (12 - 9) + 7)')).toBe(38);
+    expect(calculate('(19 + 11) * (100 / (5 * 4 + 5))')).toBe(120);
+  });
   it('handles parentheses, exponents, multiplication, division, addition, and subtraction, by performing calculations in the correct order', () => {
     expect(calculate('6 ^ (8 - 2 * 3) / 2')).toBe(18);
     expect(calculate('44 + 10 * (3 * 2) ^ 2 - 200')).toBe(204);
