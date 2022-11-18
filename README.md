@@ -4,8 +4,9 @@
 INSTRUCTIONS
 1. cd into the calculator folder
 2. run npm install
-3. if the browser did not automatically open localhost:3000, please run localhost:3000 on your browser
-4. Enjoy!
+3. run npm start
+4. if the browser did not automatically open localhost:3000, please run localhost:3000 on your browser
+5. Enjoy!
 
 Notes
 1. There is no user input error handling, for example if you were to run '5 + - * 2', it would normally typically return as an error, but here it would return as 5.
