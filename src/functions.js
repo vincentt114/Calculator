@@ -13,7 +13,6 @@ const functions = class {
         }
         const end = current - 1;
         const parens = output.slice(begin + 1, end);
-        console.log(parens)
         const calculateParens = functions.calculate(parens);
         const beforeParens = output.slice(0, begin);
         const afterParens = output.slice(end + 1, output.length);
@@ -66,7 +65,5 @@ const functions = class {
     return this.addSubtract(array);
   };
 };
-
-console.log(functions.calculate('40 - (100 / ( 15 - 2 * 5) + (22 - 12))'));
 
 module.exports = functions;
