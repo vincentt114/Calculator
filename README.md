@@ -9,7 +9,7 @@ INSTRUCTIONS
 5. Enjoy!
 
 Notes
-1. There is no user input error handling, for example if you were to run '5 + - * 2', it would normally typically return as an error, but here it would return as 5.
+1. There is no user input error handling, for example if you were to run '5 + - * 2', it would normally return as an error, but here it would return as 5.
 2. In a typical calculator, a number next to a parentheses (ex: 5(4 + 2)), would be the equivalent of multiplying (ex: 5 * (4 + 2)), my application does not have that implicit conversion and would require an explicit '*' symbol.
 
 How it Works
