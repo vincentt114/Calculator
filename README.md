@@ -9,8 +9,7 @@ INSTRUCTIONS
 
 Notes
 1. There is no user input error handling, for example if you were to run '5 + - * 2', it would normally typically return as an error, but here it would return as 5.
-2. My application cannot handle nested parentheses.
-3. In a typical calculator, a number next to a parentheses (ex: 5(4 + 2)), would be the equivalent of multiplying (ex: 5 * (4 + 2)), my application does not have that implicit conversion and would require an explicit '*' symbol.
+2. In a typical calculator, a number next to a parentheses (ex: 5(4 + 2)), would be the equivalent of multiplying (ex: 5 * (4 + 2)), my application does not have that implicit conversion and would require an explicit '*' symbol.
 
 How it Works
 1. The user (hopefully with correct syntax) creates an input string through the use of the calculator's buttons.
